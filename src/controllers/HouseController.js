@@ -39,7 +39,7 @@ class HouseController {
 
     }
 
-    // atualizar uma casa
+    // atualizar uma casa ...
     async updade(req, res) {
 
         const { filename } = req.file;
