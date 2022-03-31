@@ -71,6 +71,7 @@ class HouseController {
         return res.send();
     }
 
+    // deletar uma casa 
     async destroy(req, res) {
 
         const { house_id } = req.body;
